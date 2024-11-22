@@ -57,8 +57,8 @@ return {
       }
     })
 
-    vim.keymap.set({'i', 'n'}, "<leader>tf", ":ToggleTerm direction=float<CR>", { noremap = true, silent = true, desc = "浮动终端"})
-    vim.keymap.set({'i', 'n'}, "<leader>tv", ":ToggleTerm direction=vertical<CR>", { noremap = true, silent = true, desc = "右终端"})
-    vim.keymap.set({'i', 'n'}, "<leader>th", ":ToggleTerm direction=horizontal<CR>", { noremap = true, silent = true, desc = "下终端"})
+    vim.keymap.set('n', "<leader>tf", ":ToggleTerm direction=float<CR>", { noremap = true, silent = true, desc = "浮动终端"})
+    vim.keymap.set('n', "<leader>tv", ":ToggleTerm direction=vertical<CR>", { noremap = true, silent = true, desc = "右终端"})
+    vim.keymap.set('n', "<leader>th", ":ToggleTerm direction=horizontal<CR>", { noremap = true, silent = true, desc = "下终端"})
   end
 }
