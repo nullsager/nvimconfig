@@ -15,6 +15,9 @@ vim.opt.ignorecase = true
 vim.opt.smartcase = true
 vim.opt.splitright = true
 vim.opt.splitbelow = true
+vim.opt.scrolloff = 10
+vim.opt.showmode = false
+vim.opt.signcolumn = 'yes'
 
 -- 在复制（yank）时高亮显示被复制的文本
 vim.api.nvim_create_autocmd('TextYankPost', {
