@@ -32,7 +32,7 @@ ls.add_snippets("cmake", {
     project_name = i(2, "MyProject"),
     project_version = i(3, "1.0"),
     cpp_standard = i(4, "20"),
-    executable_name = i(5, "my_executable"),
+    executable_name = i(5, "a.out"),
     source_files = i(6, "main.cpp"),
     include_dirs = i(7, "include"),
     libraries = i(8, "library_name"),
